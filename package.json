@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-components-v2",
+  "version": "1.0.0",
+  "description": "Bot Discord sécurisé utilisant les Components V2",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "lint": "node --check index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "components-v2"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.17.0",
+    "dotenv": "^16.4.5"
+  }
+}
